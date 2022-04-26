@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+      </div>
+      <div>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          autofocus="on"
+          placeholder="Enter full name"
+          size="30"
+          maxlength="64"
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+      </div>
+      <div>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          size="30"
+          maxlength="64"
+        />
+      </div>
+      <div>
+        <label for="form-message">Your message:</label>
+      </div>
+      <div>
+        <textarea
+          id="form-message"
+          name="message"
+          placeholder="Write something here"
+          rows="10"
+          cols="50"
+        ></textarea>
+      </div>
+      <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
